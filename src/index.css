@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+:root {
+    --medium-purple: #9f6eed;
+    --salmon: #fc907e;
+    --lavender: #f1e9fc;
+    --white-smoke: #f2f2f2;
+    --white: white;
+    --black: #151218;
+    --silver: #c5c5c5;
+    --medium-purple-2: #a87eef;
+    --accessible-components-dark-grey: #9b9b9b;
+    --accessible-components-dodger-blue: #1378d1;
+    --bg-black: #151218;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+
+.button-primary{
+    background-color: transparent;
+    background-image: linear-gradient(157deg, var(--salmon), var(--medium-purple));
+    color: var(--white);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    transition: 0.35s ease;
+    
+}
+.button-primary:hover {
+    background-image: linear-gradient(157deg, var(--medium-purple), var(--salmon));
+}
