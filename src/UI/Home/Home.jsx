@@ -3,6 +3,7 @@ import ResponsiveAppBar from './Navbar/ResponsiveAppBar';
 import {  CssBaseline, createTheme } from '@mui/material';
 import { ThemeProvider, } from '@mui/material/styles';
 import HeroBanner from './Banner/HeroBanner';
+import KeyQuestions from './KeyQuestions/KeyQuestions';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -36,7 +37,8 @@ const Home = () => {
            
           <div>
             <ResponsiveAppBar />
-            <HeroBanner></HeroBanner>
+            <HeroBanner/>
+            <KeyQuestions/>
             this is home
 
         </div>

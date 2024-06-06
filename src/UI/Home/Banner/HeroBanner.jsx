@@ -131,7 +131,7 @@ const HeroBanner = () => {
                                 
                             </HeroSubText>
                             <div className='flex gap-3'>
-                            <button className='btn-outline py-3 px-6'>
+                            <button className='btn-outline button-outline:hover py-3 px-6'>
                                 Get Started
                             </button>
                             <img src={heroSignature} alt="" />
