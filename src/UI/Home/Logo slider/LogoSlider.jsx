@@ -15,7 +15,7 @@ import sl9 from '../../../assets/sl9.svg'
 import sl10 from '../../../assets/sl10.svg'
 import sl11 from '../../../assets/sl10.svg'
 
-const animation = { duration: 5000, easing: (t) => t }
+const animation = { duration: 15000, easing: (t) => t }
 
 const LogoSlider = () => {
     const [sliderRef] = useKeenSlider({
