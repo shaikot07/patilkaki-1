@@ -2,6 +2,7 @@ import React, { createContext, useMemo, useState } from 'react';
 import ResponsiveAppBar from './Navbar/ResponsiveAppBar';
 import {  CssBaseline, createTheme } from '@mui/material';
 import { ThemeProvider, } from '@mui/material/styles';
+import HeroBanner from './Banner/HeroBanner';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
            
           <div>
             <ResponsiveAppBar />
+            <HeroBanner></HeroBanner>
             this is home
 
         </div>
