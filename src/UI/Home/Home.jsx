@@ -4,6 +4,7 @@ import {  CssBaseline, createTheme } from '@mui/material';
 import { ThemeProvider, } from '@mui/material/styles';
 import HeroBanner from './Banner/HeroBanner';
 import KeyQuestions from './KeyQuestions/KeyQuestions';
+import LogoSlider from './Logo slider/LogoSlider';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
             <ResponsiveAppBar />
             <HeroBanner/>
             <KeyQuestions/>
+            <LogoSlider/>
             this is home
 
         </div>
