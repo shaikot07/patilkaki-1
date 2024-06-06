@@ -1,5 +1,5 @@
-import React from 'react';
-import { Card, CardActionArea, CardContent, CardMedia, Container, Typography } from '@mui/material';
+
+import {  Container, Typography } from '@mui/material';
 // card images 
 import c1 from '../../../assets/c1.svg'
 import c2 from '../../../assets/c2.svg'
