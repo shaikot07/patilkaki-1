@@ -23,58 +23,59 @@ const LogoSlider = () => {
         loop: true,
         renderMode: "performance",
         drag: false,
-        slidesPerView: 5,
-        spacing: 15,
+        slidesPerView: 10,
+        spacing: 5,
+        pauseOnHover: true, // Pause the slider on hover
         created(s) {
-            s.moveToIdx(5, true, animation)
+            s.moveToIdx(5, true, animation);
         },
         updated(s) {
-            s.moveToIdx(s.track.details.abs + 5, true, animation)
+            s.moveToIdx(s.track.details.abs + 5, true, animation);
         },
         animationEnded(s) {
-            s.moveToIdx(s.track.details.abs + 5, true, animation)
+            s.moveToIdx(s.track.details.abs + 5, true, animation);
         },
     })
-
+    
    
     return (
-        <div>
+        <div className="mt-8">
             <div ref={sliderRef} className="keen-slider">
-                <div className="keen-slider__slide number-slide1">
+                <div className="keen-slider__slide  number-slide1 w-[310px]">
                     <img className="w-[200px]" src={ sl1} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide2">
+                <div className="keen-slider__slide  number-slide2 w-[310px]">
                     <img className="w-[220px]" src={ sl5} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide3">
+                <div className="keen-slider__slide number-slide3  w-[310px]">
                     <img className="w-[250px]" src={ sl3} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide4">
+                <div className="keen-slider__slide  number-slide4 w-[310px]">
                     <img className="w-[250px]" src={ sl4} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide5">
+                <div className="keen-slider__slide  number-slide5 w-[310px]">
                     <img className="w-[250px]" src={ sl5} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide6">
+                <div className="keen-slider__slide  number-slide6 w-[310px]">
                     <img className="w-[250px]" src={ sl6} alt="" />
                 </div>
-                <div className="keen-slider__slide number-slide7">
+                <div className="keen-slider__slide   number-slide7 w-[310px]">
                     <img className="w-[250px]" src={ sl7} alt="" />
                 </div>
                 
-                <div className="keen-slider__slide number-slide8">
+                <div className="keen-slider__slide number-slide8 w-[310px] ">
                     <img className="w-[250px]" src={ sl8} alt="" />
                 </div>
                 
-                <div className="keen-slider__slide number-slide9">
+                <div className="keen-slider__slide  number-slide9 w-[310px]">
                     <img className="w-[250px]" src={ sl9} alt="" />
                 </div>
                 
-                <div className="keen-slider__slide number-slide10">
+                <div className="keen-slider__slide  number-slide10 w-[310px]">
                     <img className="w-[250px]" src={ sl10} alt="" />
                 </div>
                 
-                <div className="keen-slider__slide number-slide11">
+                <div className="keen-slider__slide  number-slide11 w-[310px]">
                     <img className="w-[250px]" src={ sl11} alt="" />
                 </div>
                 
