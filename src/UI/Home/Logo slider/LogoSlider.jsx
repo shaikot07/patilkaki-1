@@ -14,12 +14,15 @@ import sl8 from '../../../assets/sl8.svg'
 import sl9 from '../../../assets/sl9.svg'
 import sl10 from '../../../assets/sl10.svg'
 import sl11 from '../../../assets/sl10.svg'
-import { Container } from "@mui/material"
+import { Container,} from "@mui/material"
+import { useTheme } from '@emotion/react';
+
 // import { useEffect, useState } from "react"
 
 const animation = { duration: 16000, easing: (t) => t }
 
 const LogoSlider = () => {
+    const theme = useTheme(); 
     const [sliderRef] = useKeenSlider({
         loop: true,
         renderMode: "performance",
@@ -41,7 +44,7 @@ const LogoSlider = () => {
 
     return (
         <div className="mt-8">
-            <Container>
+            <Container className={theme.palette.mode === 'dark' ? 'bg-[#F1E9FC]' : ''}>
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide  number-slide1 w-[310px] grid grid-cols-5 gap-4">
                         <img className="w-[200px] h-[200px]" src={sl1} alt="" />

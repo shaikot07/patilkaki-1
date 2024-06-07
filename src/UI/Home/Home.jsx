@@ -5,6 +5,7 @@ import { ThemeProvider, } from '@mui/material/styles';
 import HeroBanner from './Banner/HeroBanner';
 import KeyQuestions from './KeyQuestions/KeyQuestions';
 import LogoSlider from './Logo slider/LogoSlider';
+import ReviewsSection from './Reviews Section/ReviewsSection';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
             <HeroBanner/>
             <KeyQuestions/>
             <LogoSlider/>
+            <ReviewsSection></ReviewsSection>
             this is home
 
         </div>

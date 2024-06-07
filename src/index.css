@@ -69,5 +69,14 @@ html {
 .button-outline:hover {
     background: linear-gradient(157deg, var(--medium-purple), var(--salmon));
 }
-  
-  
+
+
+.custom-object-position {
+    object-position: 85% 50%;
+  }
+
+.text-gradient {
+    background: linear-gradient(157deg, var(--salmon), var(--medium-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
