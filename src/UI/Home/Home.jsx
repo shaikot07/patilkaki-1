@@ -46,9 +46,7 @@ const Home = () => {
             <LogoSlider/>
             <ReviewsSection/>
             <SpreadsheetSection/>
-            this is home
             <Footer/>
-
         </div>
         </ThemeProvider>
       </ColorModeContext.Provider>
