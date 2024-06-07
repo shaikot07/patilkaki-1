@@ -7,6 +7,7 @@ import KeyQuestions from './KeyQuestions/KeyQuestions';
 import LogoSlider from './Logo slider/LogoSlider';
 import ReviewsSection from './Reviews Section/ReviewsSection';
 import SpreadsheetSection from './SpreadsheetSection/SpreadsheetSection';
+import Footer from '../Footer/Footer';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
             <ReviewsSection/>
             <SpreadsheetSection/>
             this is home
+            <Footer/>
 
         </div>
         </ThemeProvider>

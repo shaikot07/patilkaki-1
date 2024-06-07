@@ -11,7 +11,7 @@ import seetp1 from '../../../assets/sheetp1.webp'
 
 const SpreadsheetSection = () => {
     return (
-        <div className='mt-20'>
+        <div className='mt-20 mb-20'>
             <Container>
                 <Typography variant="h3" align="center" sx={{ fontSize: '3rem', fontWeight: 700 }}>
                     Four key questions answered by Crest
