@@ -95,7 +95,7 @@ function ResponsiveAppBar() {
 
                     <Box
                         component="img"
-                        sx={{ height: 40, marginRight: 2 }}
+                        sx={{ height: 30, marginRight: 2 }}
                         alt="Logo"
                         src="https://i.ibb.co/FJDK671/logo.png"
                     />
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
                         ))}
                     </Box>
 
-                    <Box sx={{ flexGrow: 0 }}>
+                    <Box sx={{ flexGrow: 0, display: { xs: 'none', md:'block' } }}>
                         {/* <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -135,7 +135,7 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             ))}
                         </Menu> */}
-                        <div>
+                        <div className=''>
                         <ThemeToggle />
                         <Link className=" font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text mr-4 ml-4 transition-colors hover:text-white">Log In</Link>
                         <Link className='button-primary button-primary:hover'>Talk To Us</Link>

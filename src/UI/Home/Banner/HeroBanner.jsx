@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Container, Grid } from '@mui/material';
 import { styled } from '@mui/system';
 // import  imge from assets folder 
-import homeHeroBg from '../../../assets/home-hero-bg.svg'
+
 import homeHeroLest from '../../../assets/Hero-left-Image.svg'
 import heroSignature from '../../../assets/signeture.svg'
 const HeroSection = styled(Box)(({ theme }) => ({
@@ -10,7 +10,7 @@ const HeroSection = styled(Box)(({ theme }) => ({
     alignItems: 'center',
     justifyContent: 'center',
     minHeight: '100vh', // Full viewport height
-    backgroundImage: `url(${homeHeroBg})`, // Replace with your image URL
+    backgroundImage: `url(${'https://i.ibb.co/XX8520k/home-hero-bg.png'})`, // Replace with your image URL
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     color: '#fff',
