@@ -19,7 +19,7 @@ const ReviewsSection = () => {
 
     return (
         <>
-            <Container className='mt-20'>
+            <Container className='mt-20 '>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                     <SwiperSlide>
                         <Grid container spacing={8}>

@@ -6,6 +6,7 @@ import HeroBanner from './Banner/HeroBanner';
 import KeyQuestions from './KeyQuestions/KeyQuestions';
 import LogoSlider from './Logo slider/LogoSlider';
 import ReviewsSection from './Reviews Section/ReviewsSection';
+import SpreadsheetSection from './SpreadsheetSection/SpreadsheetSection';
 
 export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 const Home = () => {
@@ -42,7 +43,8 @@ const Home = () => {
             <HeroBanner/>
             <KeyQuestions/>
             <LogoSlider/>
-            <ReviewsSection></ReviewsSection>
+            <ReviewsSection/>
+            <SpreadsheetSection/>
             this is home
 
         </div>
