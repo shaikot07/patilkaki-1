@@ -19,7 +19,7 @@ const Footer = () => {
                     }} className='p-5 md:p-20 h-[400px] text-center md-10 md:mb-44'>
                     <h2 className='text-2xl md:text-6xl font-bold text-white'>You can grow faster than you think!</h2>
                     <p className='w-[80%] mx-auto mt-16'>Plan with Crest to fulfil your demand today, and dreams tomorrow. We bring the methods and technologies of large global companies to help brands of all sizes scale.</p>
-                    <button className='py-2 px-6 bg-black text-white rounded-3xl mt-8'>Get started with Crest</button>
+                    <button className='py-2 px-6 bg-black text-white rounded-3xl mt-8 hover:bg-white hover:text-black'>Get started with Crest</button>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-4 justify-evenly'>
                     <div className=" mt-6 md:mt-0">
@@ -34,6 +34,7 @@ const Footer = () => {
                             <li>Product</li>
                             <li>Pricing</li>
                             <li>Customer Stories</li>
+                            <li>Career</li>
                             <li>Career</li>
 
                         </ul>
