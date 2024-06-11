@@ -1,14 +1,6 @@
-// import { createContext, useMemo, useState } from 'react';
-// import { ThemeProvider, createTheme } from '@mui/material/styles';
-// import CssBaseline from '@mui/material/CssBaseline';
-// import Container from '@mui/material/Container';
-// import Typography from '@mui/material/Typography';
-// import ThemeToggle from './Theme/ThemeToggle';
-// import Home from './UI/Home/Home';
-// import ResponsiveAppBar from './UI/Home/Navbar/ResponsiveAppBar';
 
 
-// // Create a context for the color mode
+// Create a context for the color mode
 // export const ColorModeContext = createContext({ toggleColorMode: () => { } });
 // function App() {
 //   const [mode, setMode] = useState('light');
