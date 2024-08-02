@@ -73,9 +73,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <h2 className='mt-10 text-white'>
-                    Copyright 2024 Crest    Terms of Service    Privacy Policy <br />
+                    Copyright 2024 Crest Terms of Service    Privacy Policy <br />
                     Conifer Innovations Private Limited <br />
                     CIN: U72900KA2022PTC163144
+                    CDN: U72900KA2022PTC163
                 </h2>
             </Container>
         </div>
