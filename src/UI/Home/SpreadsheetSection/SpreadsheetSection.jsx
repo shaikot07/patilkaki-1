@@ -75,7 +75,7 @@ const SpreadsheetSection = () => {
                                 id="panel2-header"
                             >
                                 <Typography variant='h6' sx={{ fontSize: '1.5rem', fontWeight: 600 }}>
-                                Workflow Automation
+                                Workflow Automation is good think
                                 </Typography>
                             </AccordionSummary>
                             <AccordionDetails>
