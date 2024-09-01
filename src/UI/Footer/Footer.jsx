@@ -58,16 +58,16 @@ const Footer = () => {
                             15th A Cross, Sector - 6,
                             HSR Layout, Bengaluru,
                             India. 560102</p>
-                        <IconButton aria-label="delete">
-                            <TwitterIcon className='text-[#E9E9E9]' />
+                        <IconButton aria-label="delete" className='button-outline '>
+                            <TwitterIcon className='text-[#E9E9E9]  ' />
                         </IconButton>
-                        <IconButton aria-label="delete" disabled color="primary">
+                        <IconButton aria-label="delete"  className='button-outline'>
                             <FacebookOutlinedIcon className='text-[#E9E9E9]' />
                         </IconButton>
-                        <IconButton color="secondary" aria-label="add an alarm">
+                        <IconButton color="secondary" aria-label="add an alarm" className='button-outline'>
                             <InstagramIcon className='text-[#E9E9E9]' />
                         </IconButton>
-                        <IconButton color="primary" aria-label="add to shopping cart">
+                        <IconButton color="primary" aria-label="add to shopping cart" className='button-outline'>
                             <LinkedInIcon className='text-[#E9E9E9]' />
                         </IconButton>
                     </div>
